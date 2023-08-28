@@ -1,0 +1,44 @@
+additionalProperties:
+  artifactId: openapi-spring
+  groupId: org.openapitools
+  version: 1
+files:
+  ../kinde-java-sdk/src/main/java/org/openapitools/sdk/enums/AdditionalParameters.java:
+    destinationFilename: src/main/java/org/openapitools/sdk/enums/AdditionalParameters.java
+  ../kinde-java-sdk/src/main/java/org/openapitools/sdk/enums/GrantType.java:
+    destinationFilename: src/main/java/org/openapitools/sdk/enums/GrantType.java
+  ../kinde-java-sdk/src/main/java/org/openapitools/sdk/enums/StorageEnums.java:
+    destinationFilename: src/main/java/org/openapitools/sdk/enums/StorageEnums.java
+  ../kinde-java-sdk/src/main/java/org/openapitools/sdk/enums/TokenType.java:
+    destinationFilename: src/main/java/org/openapitools/sdk/enums/TokenType.java
+  ../kinde-java-sdk/src/main/java/org/openapitools/sdk/oauth2/AuthorizationCode.java:
+    destinationFilename: src/main/java/org/openapitools/sdk/oauth2/AuthorizationCode.java
+  ../kinde-java-sdk/src/main/java/org/openapitools/sdk/oauth2/ClientCredentials.java:
+    destinationFilename: src/main/java/org/openapitools/sdk/oauth2/ClientCredentials.java
+  ../kinde-java-sdk/src/main/java/org/openapitools/sdk/oauth2/PKCE.java:
+    destinationFilename: src/main/java/org/openapitools/sdk/oauth2/PKCE.java
+  ../kinde-java-sdk/src/main/java/org/openapitools/sdk/storage/BaseStorage.java:
+    destinationFilename: src/main/java/org/openapitools/sdk/storage/BaseStorage.java
+  ../kinde-java-sdk/src/main/java/org/openapitools/sdk/storage/Storage.java:
+    destinationFilename: src/main/java/org/openapitools/sdk/storage/Storage.java
+  ../kinde-java-sdk/src/main/java/org/openapitools/sdk/utils/Utils.java:
+    destinationFilename: src/main/java/org/openapitools/sdk/utils/Utils.java
+  ../kinde-java-sdk/src/main/java/org/openapitools/sdk/CallbackController.java:
+    destinationFilename: src/main/java/org/openapitools/sdk/CallbackController.java
+  ../kinde-java-sdk/src/main/java/org/openapitools/sdk/AppConfig.java:
+    destinationFilename: src/main/java/org/openapitools/sdk/AppConfig.java
+  ../kinde-java-sdk/src/main/java/org/openapitools/sdk/KindeClientSDK.java:
+    destinationFilename: src/main/java/org/openapitools/sdk/KindeClientSDK.java
+  ../kinde-java-sdk/src/test/java/org/openapitools/OAuth2AuthorizationCodeFlowTest.java:
+    destinationFilename: src/test/java/org/openapitools/OAuth2AuthorizationCodeFlowTest.java
+  ../kinde-java-sdk/src/test/java/org/openapitools/OAuth2ClientCredentialTest.java:
+    destinationFilename: src/test/java/org/openapitools/OAuth2ClientCredentialTest.java
+  ../kinde-java-sdk/src/test/java/org/openapitools/OAuth2PKCETest.java:
+    destinationFilename: src/test/java/org/openapitools/OAuth2PKCETest.java
+  ../kinde-java-sdk/src/test/java/org/openapitools/UtilsTest.java:
+    destinationFilename: src/test/java/org/openapitools/UtilsTest.java
+  ../kinde-java-sdk/src/test/java/org/openapitools/KindeClientSDKTest.java:
+    destinationFilename: src/test/java/org/openapitools/KindeClientSDKTest.java
+  ../kinde-java-sdk/src/test/resources/application.properties:
+    destinationFilename: src/test/resources/application.properties
+  
