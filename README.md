@@ -68,12 +68,4 @@ Add the following plugins in pom.xml
         <finalName>kindejava</finalName>
     </configuration>
 </plugin>
-<plugin>
-    <groupId>org.apache.maven.plugins</groupId>
-    <artifactId>maven-compiler-plugin</artifactId>
-    <configuration>
-        <source>15</source>
-        <target>15</target>
-    </configuration>
-</plugin>
 ```
