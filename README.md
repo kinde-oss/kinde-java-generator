@@ -42,6 +42,7 @@ Add the following dependency in pom.xml after generation:
 ```
 
 Afterwards make following changes in pom.xml
+
 ```
 1. Locate the <build> section within the pom.xml file.
 2. Replace the <build> with following
