@@ -69,3 +69,18 @@ Add the following plugins in pom.xml
     </configuration>
 </plugin>
 ```
+Afterwards
+```
+1. Locate the <build> section within the pom.xml file.
+2. Inside the <build> section, find the <plugins> section.
+3. Within the <plugins> section, find the configuration for the spring-boot-maven-plugin. It should look something like this:
+
+<plugin> 
+    <groupId>org.springframework.boot</groupId> 
+    <artifactId>spring-boot-maven-plugin</artifactId> 
+    <!-- Add the <configuration> section with the <classifier> element --> 
+    <configuration> 
+        <classifier>exec</classifier> 
+    </configuration> 
+</plugin>
+```
