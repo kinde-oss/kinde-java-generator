@@ -41,46 +41,45 @@ Add the following dependency in pom.xml after generation:
 </dependency>
 ```
 
-Add the following plugins in pom.xml
-
-```
-<plugin>
-    <groupId>org.apache.maven.plugins</groupId>
-    <artifactId>maven-surefire-plugin</artifactId>
-    <configuration>
-        <includes>
-            <include>**/*.java</include>
-        </includes>
-    </configuration>
-</plugin>
-<plugin>
-    <groupId>org.apache.maven.plugins</groupId>
-    <artifactId>maven-jar-plugin</artifactId>
-    <version>3.2.0</version>
-    <executions>
-        <execution>
-            <goals>
-                <goal>test-jar</goal>
-            </goals>
-        </execution>
-    </executions>
-    <configuration>
-        <finalName>kindejava</finalName>
-    </configuration>
-</plugin>
-```
-Afterwards
+Afterwards make following changes in pom.xml
 ```
 1. Locate the <build> section within the pom.xml file.
-2. Inside the <build> section, find the <plugins> section.
-3. Within the <plugins> section, find the configuration for the spring-boot-maven-plugin. It should look something like this:
+2. Replace the <build> with following
 
-<plugin> 
-    <groupId>org.springframework.boot</groupId> 
-    <artifactId>spring-boot-maven-plugin</artifactId> 
-    <!-- Add the <configuration> section with the <classifier> element --> 
-    <configuration> 
-        <classifier>exec</classifier> 
-    </configuration> 
-</plugin>
+<build>
+    <sourceDirectory>src/main/java</sourceDirectory>
+    <plugins>
+        <plugin>
+            <groupId>org.apache.maven.plugins</groupId>
+            <artifactId>maven-surefire-plugin</artifactId>
+            <configuration>
+                <includes>
+                    <include>**/*.java</include>
+                </includes>
+            </configuration>
+        </plugin>
+        <plugin>
+            <groupId>org.apache.maven.plugins</groupId>
+            <artifactId>maven-jar-plugin</artifactId>
+            <version>3.2.0</version>
+            <executions>
+                <execution>
+                    <goals>
+                        <goal>test-jar</goal>
+                    </goals>
+                </execution>
+            </executions>
+            <configuration>
+                <finalName>kindejava</finalName>
+            </configuration>
+        </plugin>
+        <plugin>
+            <groupId>org.springframework.boot</groupId>
+            <artifactId>spring-boot-maven-plugin</artifactId>
+            <configuration>
+                <classifier>exec</classifier>
+            </configuration>
+        </plugin>
+    </plugins>
+</build>
 ```
