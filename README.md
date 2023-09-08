@@ -58,10 +58,10 @@ openapi-generator generate -i kinde.yml -g spring -c kinde-config.yml -o kinde-j
 openapi-generator-cli generate -i https://kinde.com/api/kinde-mgmt-api-specs.yaml
 ```
 
-The SDK gets outputted to: [insert path], which you can enter via:
+The SDK gets outputted to: kinde-java-sdk, which you can enter via:
 
 ```bash
-cd [insert path]
+cd kinde-java-sdk
 ```
 
 ## SDK documentation
