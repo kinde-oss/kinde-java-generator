@@ -1,0 +1,46 @@
+additionalProperties:
+  artifactId: openapi-spring
+  groupId: org.openapitools
+  version: 1
+files:
+  supporting-files/sdk/enums/AdditionalParameters.java:
+    destinationFilename: src/main/java/org/openapitools/sdk/enums/AdditionalParameters.java
+  supporting-files/sdk/enums/GrantType.java:
+    destinationFilename: src/main/java/org/openapitools/sdk/enums/GrantType.java
+  supporting-files/sdk/enums/StorageEnums.java:
+    destinationFilename: src/main/java/org/openapitools/sdk/enums/StorageEnums.java
+  supporting-files/sdk/enums/TokenType.java:
+    destinationFilename: src/main/java/org/openapitools/sdk/enums/TokenType.java
+  supporting-files/sdk/oauth2/AuthorizationCode.java:
+    destinationFilename: src/main/java/org/openapitools/sdk/oauth2/AuthorizationCode.java
+  supporting-files/sdk/oauth2/ClientCredentials.java:
+    destinationFilename: src/main/java/org/openapitools/sdk/oauth2/ClientCredentials.java
+  supporting-files/sdk/oauth2/PKCE.java:
+    destinationFilename: src/main/java/org/openapitools/sdk/oauth2/PKCE.java
+  supporting-files/sdk/storage/BaseStorage.java:
+    destinationFilename: src/main/java/org/openapitools/sdk/storage/BaseStorage.java
+  supporting-files/sdk/storage/Storage.java:
+    destinationFilename: src/main/java/org/openapitools/sdk/storage/Storage.java
+  supporting-files/sdk/utils/Utils.java:
+    destinationFilename: src/main/java/org/openapitools/sdk/utils/Utils.java
+  supporting-files/sdk/CallbackController.java:
+    destinationFilename: src/main/java/org/openapitools/sdk/CallbackController.java
+  supporting-files/sdk/AppConfig.java:
+    destinationFilename: src/main/java/org/openapitools/sdk/AppConfig.java
+  supporting-files/sdk/KindeClientSDK.java:
+    destinationFilename: src/main/java/org/openapitools/sdk/KindeClientSDK.java
+  supporting-files/test-classes/OAuth2AuthorizationCodeFlowTest.java:
+    destinationFilename: src/test/java/org/openapitools/OAuth2AuthorizationCodeFlowTest.java
+  supporting-files/test-classes/OAuth2ClientCredentialTest.java:
+    destinationFilename: src/test/java/org/openapitools/OAuth2ClientCredentialTest.java
+  supporting-files/test-classes/OAuth2PKCETest.java:
+    destinationFilename: src/test/java/org/openapitools/OAuth2PKCETest.java
+  supporting-files/test-classes/UtilsTest.java:
+    destinationFilename: src/test/java/org/openapitools/UtilsTest.java
+  supporting-files/test-classes/KindeClientSDKTest.java:
+    destinationFilename: src/test/java/org/openapitools/KindeClientSDKTest.java
+  supporting-files/test-classes/application.properties:
+    destinationFilename: src/test/resources/application.properties
+  supporting-files/README.md:
+    destinationFilename: README.md
+
